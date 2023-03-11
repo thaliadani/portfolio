@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #20262E;
+    --cor-primaria: #202020;
     --cor-secundaria: #E9E8E8;
-    --cor-terciaria: #913175;
+    --cor-terciaria: #2aa788;
     --cor-hover: #28303a;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -13,10 +13,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
+    
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
@@ -110,6 +111,11 @@ body {
 .apresentacao__imagem{
     width: 50%;
 }
+
+.apresentacao__imagem__curriculo{
+    width: 30%;
+}
+
 
 .rodape {
     padding: 24px;
